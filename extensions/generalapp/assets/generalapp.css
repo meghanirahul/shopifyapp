@@ -1,0 +1,14 @@
+.chuaa{color:cadetblue;font-size: 10px;}
+.page-width:has(.section-all-none-all-burn){
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+.scroll-trigger.animate--slide-in:has(.section-all-none-all-burn){
+    transform: none;
+    opacity: 1;
+    }
+.scroll-trigger:not(.scroll-trigger--offscreen).animate--slide-in:has(.section-all-none-all-burn){
+    animation: none;
+    animation-delay: 0ms;
+}
