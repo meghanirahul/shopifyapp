@@ -3,7 +3,7 @@
 client_id = "1efc71538fd9ed688ee7ebf794951570"
 name = "testing"
 handle = "testing-1308"
-application_url = "https://aw-pace-outline-developing.trycloudflare.com/"
+application_url = "https://recommendations-going-redeem-trustee.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_inventory,write_products"
 
 [auth]
 redirect_urls = [
-  "https://aw-pace-outline-developing.trycloudflare.com/auth/callback",
-  "https://aw-pace-outline-developing.trycloudflare.com/auth/shopify/callback",
-  "https://aw-pace-outline-developing.trycloudflare.com/api/auth/callback"
+  "https://recommendations-going-redeem-trustee.trycloudflare.com/auth/callback",
+  "https://recommendations-going-redeem-trustee.trycloudflare.com/auth/shopify/callback",
+  "https://recommendations-going-redeem-trustee.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

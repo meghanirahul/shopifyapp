@@ -9,6 +9,7 @@ import {
 import { useActionData, useLoaderData } from "@remix-run/react";
 import { authenticate } from "../shopify.server";
 
+
 export const loader = async ({ request }) => {
     const { admin } = await authenticate.admin(request);
 
@@ -22,6 +23,12 @@ export const loader = async ({ request }) => {
     return ({
         collection: responseJson
     })
+}
+
+export const action = async ({ request }) => {
+    const { admin } = await authenticate.admin(request);
+    console.log(admin);
+    console.log('response====>>>>',request)
 }
 
 export default function Collection() {
